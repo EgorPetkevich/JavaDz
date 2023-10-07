@@ -3,6 +3,9 @@ package hw3;
 public class Task3 {
     public static boolean isNestable(int[] arr1, int[] arr2) {
         // Проверка условий для вложенности массивов
+        if (arr1.length == arr2.length && arr1.length == 0) {
+            return true;
+        };
         return (getMin(arr1) > getMin(arr2)) && (getMax(arr1) < getMax(arr2));
     }
 
@@ -27,6 +30,7 @@ public class Task3 {
         }
         return max;
     }
+
 
     public static void main(String[] args) {
         // Примеры использования функции
