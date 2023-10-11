@@ -1,5 +1,7 @@
 package hw2;
 
+import java.util.Scanner;
+
 public class Task2 {
     public static int countDigits(int number) {
         // Обработка случая с нулем
@@ -10,7 +12,7 @@ public class Task2 {
         int count = 0;
         // Используем Math.abs() для обработки отрицательных чисел
         int n = Math.abs(number);
-
+        System.out.println(n);
         while (n > 0) {
             n = n / 10;
             count++;
@@ -20,9 +22,8 @@ public class Task2 {
     }
 
     public static void main(String[] args) {
-        System.out.println(countDigits(4666)); // Вывод: 4
-        System.out.println(countDigits(544));  // Вывод: 3
-        System.out.println(countDigits(0));    // Вывод: 1
-        System.out.println(countDigits(-12345)); // Вывод: 5
+        Scanner in = new Scanner(System.in);
+        int inoutNumber = in.nextInt();
+        System.out.println(countDigits(inoutNumber));
     }
 }

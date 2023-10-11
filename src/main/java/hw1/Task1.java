@@ -1,5 +1,7 @@
 package hw1;
 
+import java.util.Scanner;
+
 public class Task1 {
     public static int convertToSeconds(String time) {
         // Разделение строки на минуты и секунды
@@ -30,13 +32,11 @@ public class Task1 {
 
     public static void main(String[] args) {
         // Пример использования функции
-        String videoLength = "999:59";
+//        String videoLength = "999:59";
+        Scanner in = new Scanner(System.in);
+        String videoLength = in.nextLine();
         int totalSeconds = convertToSeconds(videoLength);
 
-        if (totalSeconds != -1) {
-            System.out.println("Общая длина видео в секундах: " + totalSeconds);
-        } else {
-            System.out.println("Некорректный формат времени!");
-        }
+        System.out.println(totalSeconds);
     }
 }

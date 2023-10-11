@@ -7,7 +7,7 @@ public class Task0 {
     private final static Logger LOGGER = LogManager.getLogger();
 
     public  static  void sayHello(){
-        LOGGER.info("Hello and welcome!");
+        LOGGER.info("Привет, мир!");
     }
 
     public static void main(String[] args) {
