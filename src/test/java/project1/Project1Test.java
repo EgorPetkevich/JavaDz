@@ -47,4 +47,10 @@ public class Project1Test {
         game.handleMistake();
         assertEquals(2, game.mistakes);
     }
+    @Test
+    public void testInvalidWordLength() {
+        assertTrue(game.isInputValid("a")); // Слово слишком короткое
+        assertFalse(game.isInputValid("test")); // Слово средней длины
+        assertFalse(game.isInputValid("verylongworda")); // Слово слишком длинное
+    }
 }

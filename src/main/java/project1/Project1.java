@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Project1 {
     private static final String[] WORDS = {"hello", "world", "java"};
-    private static final int MAX_MISTAKES = 5;
+    static int MAX_MISTAKES = 5;
 
     String wordToGuess;
     char[] guessedWord;
