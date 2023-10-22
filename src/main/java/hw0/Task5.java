@@ -1,4 +1,4 @@
-package hw5;
+package hw0;
 
 public class Task5 {
     public static boolean isPalindromeDescendant(int number) {

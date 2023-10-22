@@ -1,4 +1,4 @@
-package hw8;
+package hw0;
 
 public class Task8 {
     public static boolean knightBoardCapture(int[][] board) {

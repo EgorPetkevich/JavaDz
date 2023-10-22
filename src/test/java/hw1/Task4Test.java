@@ -1,5 +1,6 @@
-package hw4;
+package hw1;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import hw0.Task4;
 import org.junit.jupiter.api.Test;
 public class Task4Test {
     @Test

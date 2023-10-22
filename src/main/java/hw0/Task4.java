@@ -1,4 +1,4 @@
-package hw4;
+package hw0;
 
 public class Task4 {
     public static String fixString(String input) {

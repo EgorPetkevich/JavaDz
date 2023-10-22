@@ -1,5 +1,6 @@
-package hw8;
+package hw1;
 
+import hw0.Task8;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,6 +1,7 @@
-package hw6;
+package hw1;
 import static org.junit.jupiter.api.Assertions.*;
 
+import hw0.Task6;
 import org.junit.jupiter.api.Test;
 public class Task6Test {
     @Test

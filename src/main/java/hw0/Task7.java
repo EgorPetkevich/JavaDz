@@ -1,4 +1,4 @@
-package hw7;
+package hw0;
 
 import java.util.Scanner;
 
