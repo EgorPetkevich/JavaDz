@@ -1,4 +1,4 @@
-package hw0;
+package hw1;
 
 import java.util.Arrays;
 

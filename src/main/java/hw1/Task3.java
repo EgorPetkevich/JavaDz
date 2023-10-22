@@ -1,4 +1,4 @@
-package hw0;
+package hw1;
 
 public class Task3 {
     public static boolean isNestable(int[] arr1, int[] arr2) {
